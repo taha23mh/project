@@ -12,6 +12,7 @@ namespace ConsoleApp13
         public int Id { get; set; }
         public string Name { get; set; }
         public string PhoneNumber { get; set; }
+        public int MyProperty { get; set; }
         public bool Gender { get; set; }
         public override string ToString()
         {
